@@ -8,7 +8,7 @@
       "args": [
         "-fdiagnostics-color=always",
         "-g",
-        "-std=c++17",
+        "-std=c++23",
         "-pedantic-errors",
         "-Wall",
         "-Weffc++",
@@ -28,7 +28,7 @@
         "kind": "build",
         "isDefault": true
       },
-      "detail": "Build active file using GCC 13 (strict ISO C++ with full warnings)."
+      "detail": "Build active file using GCC 13 (C++23 strict mode)."
     }
   ]
 }
