@@ -8,6 +8,8 @@
       "args": [
         "-fdiagnostics-color=always",
         "-g",
+        "-std=c++17",
+        "-pedantic-errors",
         "${file}",
         "-o",
         "${fileDirname}/${fileBasenameNoExtension}"
@@ -20,7 +22,7 @@
         "kind": "build",
         "isDefault": true
       },
-      "detail": "Build active file using GCC 13."
+      "detail": "Build active file using GCC 13 (strict ISO C++ mode)."
     }
   ]
 }
