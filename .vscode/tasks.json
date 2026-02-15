@@ -10,6 +10,12 @@
         "-g",
         "-std=c++17",
         "-pedantic-errors",
+        "-Wall",
+        "-Weffc++",
+        "-Wextra",
+        "-Wconversion",
+        "-Wsign-conversion",
+        "-Werror",
         "${file}",
         "-o",
         "${fileDirname}/${fileBasenameNoExtension}"
@@ -22,7 +28,7 @@
         "kind": "build",
         "isDefault": true
       },
-      "detail": "Build active file using GCC 13 (strict ISO C++ mode)."
+      "detail": "Build active file using GCC 13 (strict ISO C++ with full warnings)."
     }
   ]
 }
