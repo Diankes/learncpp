@@ -4,7 +4,8 @@
       "name": "Linux",
       "includePath": [
         "${workspaceFolder}/**",
-        "${workspaceFolder}/external/plog-1.1.11/include"
+        "${workspaceFolder}/external/plog-1.1.11/include",
+        "${workspaceFolder}/external/spdlog-1.17.0"
       ],
       "defines": [],
       "compilerPath": "/usr/bin/g++-13",
