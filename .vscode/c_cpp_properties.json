@@ -2,7 +2,10 @@
   "configurations": [
     {
       "name": "Linux",
-      "includePath": ["${workspaceFolder}/**"],
+      "includePath": [
+        "${workspaceFolder}/**",
+        "${workspaceFolder}/external/plog-1.1.11/include"
+      ],
       "defines": [],
       "compilerPath": "/usr/bin/g++-13",
       "cStandard": "c11",

@@ -20,7 +20,7 @@
           "ignoreFailures": true
         }
       ],
-      "preLaunchTask": "C/C++: g++-13 build active file"
+      "preLaunchTask": "C/C++: g++-13 build active file with external libraries"
     }
   ]
 }
